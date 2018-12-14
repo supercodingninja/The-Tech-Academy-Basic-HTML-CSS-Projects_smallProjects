@@ -1,5 +1,5 @@
 body{
-  background-color: #fff;
+  background-color: #fdaebc;
 }
 
 h1{
@@ -17,8 +17,8 @@ h1{
 }
 
 .container .squares:nth-child(-n+4){
-  background-image: url("../img/Smiles.jpg");
-  color: #ffffff;
+  background-image: url("../img/Basic HTML Template_Smiles Icons/smileyface2.png");
+  color: #38eacf;
   float: left;
   width: 100px;
   height: 100px;
@@ -37,8 +37,8 @@ h1{
     text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
-.squares: nth-child (1) {
-  background:#4240ff;
+.squares: nth-child (-n+1) {
+  background-color:#ff5733;
 }
 
 .squares: nth-child (2) {

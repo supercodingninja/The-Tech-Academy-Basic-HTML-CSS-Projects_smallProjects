@@ -1,0 +1,79 @@
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10, #img11, #img12, #img13, #img14, #img15 {
+    width:610px;
+    height:610px;
+    position:scroll;
+    z-index:-1;
+    animation-name: test;
+    animation-duration: 90s;
+    opacity:0;
+}
+
+#img2 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:10s
+}
+
+#img3 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:20s
+}    
+
+#img4 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:30s
+}
+
+#img5 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:40s
+}
+
+#img6 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:50s
+}
+
+#img7 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:60s
+}
+
+#img8 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:70s
+}
+
+#img9 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:80s
+}
+
+#img10 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:90s
+}
+
+#img11 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:100s
+}
+
+#img12 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:110s
+}
+
+#img13 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:120s
+}
+
+#img14 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:130s
+}
+
+#img15 {
+animation-delay:(n-1)*10s;
+-webkit-animation-delay:140s
+}
