@@ -147,9 +147,10 @@ p {
     height: 169px;
 }
 
+/*THIS IS WHERE YOUR PROBLEM IS CONCERNING CONTAINER*/
 .photo-overlay {
-    color: #fff;
-    position: absolute;
+    color: transparent;
+    position: auto;
     top: 0;
     right: 0;
     bottom: 0;
