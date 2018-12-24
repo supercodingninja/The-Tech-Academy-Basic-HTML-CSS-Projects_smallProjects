@@ -1,0 +1,108 @@
+body {
+  background-color: #fdaebc;
+}
+
+h1 {
+  color: rgba(8, 141, 165, 1);
+  margin-left: 100px;
+  text-shadow: 1px  .5px  4px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  background-color: #faebd7;
+  border: 2px solid black;
+  border-radius: 5%;
+}
+
+/*-----------------------------------------------------------------------------------------------                       Select All The Squares In The Array                                     -----------------------------------------------------------------------------------------------*/
+
+.container .squares:nth-child(-n+4) {
+  background-image: url("../img/Basic HTML Template_Smiles Icons/smileyface2.png");
+  color: #38eacf;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 25%;
+  cursor: pointer;
+  /* transition-property: transform;
+  transition-delay: ;
+  transition-delay: ; */
+  transition: transform .5s ease-in-out;
+}
+
+/*-----------------------------------------------------------------------------------------------                       Select All Squares Paragraphs In The Array                               -----------------------------------------------------------------------------------------------*/
+.squares:nth-child(-n+4) p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;   
+  margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+/*-----------------------------------------------------------------------------------------------                       Individually Select A Square In The Array                                -----------------------------------------------------------------------------------------------*/
+
+.squares:nth-child(-n+1) {
+  background-color:#ff5733;
+}
+
+.squares:nth-child(2) {
+  background:#ab3fdd;
+}
+
+.squares:nth-child(3) {
+  background:#ae163a;
+}
+
+.squares:nth-child(4) {
+  background:#00b200;
+}
+
+/*-----------------------------------------------------------------------------------------------                       Hover, Translate, & Transition Effects                                -----------------------------------------------------------------------------------------------*/
+
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("../img/Basic HTML Template_Smiles Icons/smileyface1.png");
+    transform: scale(.5s);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5, .2, .3, 2);
+}
+
+.squares:nth-child(-n+1) {
+    background-color:#3352ff;
+  }
+  
+  .squares:nth-child(2) {
+    background:#ddc53f;
+  }
+  
+  .squares:nth-child(3) {
+    background:#a03aae;
+  }
+  
+  .squares:nth-child(4) {
+    background:#864303;
+  }
+
+  .button:hover {
+      background-color: rgba(43, 0, 44, 0.87);
+      color: #fdaede;
+      cursor: pointer;
+  }
+
+  /*---------------------------------------------------------------------------------------------                                     Animation Effects                                ---------------------------------------------------------------------------------------------*/
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("../img/Basic HTML Template_Smiles Icons/smileyface1.png");
+    }
+
+    50% {
+        transform: translateY(330px);
+    }
+}
