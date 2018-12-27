@@ -2,40 +2,40 @@
 Gallery Section Animation
 ************************************************************/
 
-p {
+.photo1 p {
     font-weight: 300;
     line-height: 30px;
     padding-bottom: 15px;
 }
 
-.photo {
+.photo1 {
     position: relative;
     float: center;
     line-height: 0;
     margin-bottom: 2em;
     overflow: hidden;
     border-radius: 8px;
-    padding: 1%;
+    padding: 1px;
     border: 1px solid #021a40;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 2px 2px 10p rgba(0, 0, 0, 0.7)
+    background-color: #ff0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7)
 }
  
 #photo-container-1 {
     text-align: center;
-    /* margin: 15px auto; */
+    margin: 15px auto;
     margin-bottom: 10%;
-    /* width: 300px;
-    height: 169px; */
+    width: 300px;
+    height: 169px;
 }
 
 .photo1 img {
     max-width: 100%;
-    width: 500px;
+    width: 300px;
     height: 169px;
 }
 
-.photo-overlay {
+.photo1-overlay {
     color: #fff;
     position: absolute;
     top: 0;
@@ -60,26 +60,288 @@ p {
 Photo Overlay Transistion
 ************************************************************/
 
-.photo-overlay {
+.photo1-overlay {
     opacity: 0;
     transition: opacity .1s;
     border-radius: 10px;
     cursor: pointer;
 }
 
-.photo-overlay p {
+.photo1-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.photo1-overlay:hover {
     opacity: 1;
 }
 
-.photo-overlay:hover {
-    opacity: 1;
-}
-
-.photo img {
+.photo1 img {
     transition: transform .5s;
     transform-origin: 50% 50%;
 }
 
-.photo:hover img {
+.photo1:hover img {
+    transform: scale(1.1);
+}
+
+/************************************************************
+Gallery Section Animation
+************************************************************/
+
+.photo2 p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.photo2 {
+    position: block;
+    /* float: center; */
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ff0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7)
+}
+ 
+#photo-container-2 {
+    text-align: center;
+    margin: 15px auto;
+    margin-bottom: 10%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo2 img {
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo2-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center; /*To Center Text Inside Photo*/
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.white-head {
+    color: #C9BDAA;
+    margin-top: 5%;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/************************************************************
+Photo Overlay Transistion
+************************************************************/
+    
+.photo2-overlay {
+    opacity: 0;
+    transition: opacity .1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo2-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.photo2-overlay:hover {
+    opacity: 1;
+}
+
+.photo2 img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo2:hover img {
+    transform: scale(1.1);
+}
+
+/************************************************************
+Gallery Section Animation
+************************************************************/
+
+.photo3 p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.photo3 {
+    position: relative;
+    /* float: center; */
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ff0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7)
+}
+ 
+#photo-container-3 {
+    text-align: center;
+    margin: 15px auto;
+    margin-bottom: 10%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo3 img {
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo3-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center; /*To Center Text Inside Photo*/
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.white-head {
+    color: #C9BDAA;
+    margin-top: 5%;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/************************************************************
+Photo Overlay Transistion
+************************************************************/
+    
+.photo3-overlay {
+    opacity: 0;
+    transition: opacity .1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo3-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.photo3-overlay:hover {
+    opacity: 1;
+}
+
+.photo3 img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo3:hover img {
+    transform: scale(1.1);
+}
+
+.photo4 p {
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+
+.photo4 {
+    position: relative;
+    /* float: center; */
+    line-height: 0;
+    margin-bottom: 2em;
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #ff0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7)
+}
+ 
+#photo-container-4 {
+    text-align: center;
+    margin: 15px auto;
+    margin-bottom: 10%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo4 img {
+    max-width: 100%;
+    width: 300px;
+    height: 169px;
+}
+
+.photo4-overlay {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center; /*To Center Text Inside Photo*/
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.white-head {
+    color: #C9BDAA;
+    margin-top: 5%;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/************************************************************
+Photo Overlay Transistion
+************************************************************/
+
+.photo4-overlay {
+    opacity: 0;
+    transition: opacity .1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photo4-overlay p {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.photo4-overlay:hover {
+    opacity: 1;
+}
+
+.photo4 img {
+    transition: transform .5s;
+    transform-origin: 50% 50%;
+}
+
+.photo4:hover img {
     transform: scale(1.1);
 }
